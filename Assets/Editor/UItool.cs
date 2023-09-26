@@ -13,14 +13,13 @@ public class UItool : EditorWindow
     Vector2 scroll;
     string uiParentName = "God Father";
 
-    [MenuItem("Tools/Bsic UI Setup")] //Tool ddress
+    [MenuItem("Tools/Basic UI Setup")] //Tool ddress
     public static void showWindow()
     {
         
         GetWindow(typeof(UItool));
     }
 
-    public string[] Strings = { "Larry", "Curly", "Moe" };
     private void OnGUI()
     {
         //---------------------TITLE-------------------
